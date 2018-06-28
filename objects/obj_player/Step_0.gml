@@ -9,6 +9,23 @@ key_jump = keyboard_check(vk_space);
 key_sprint = keyboard_check(vk_shift);
 
 
+// Check Win condition
+if (place_meeting(x, y, obj_bandage_girl)) {
+	if room_next(room) != -1
+	{
+		room_goto_next();
+	} 
+	else
+	{
+		game_restart();
+	}
+} 
+
+// Check Lose Condition
+if (place_meeting(x, y, group_circle_)) {
+	room_restart();
+} 
+
 // Horizontal Player Movement
 var move = key_right - key_left;
 if key_sprint hsp = move * sprntsp; else hsp = move * walksp;
@@ -21,6 +38,7 @@ if key_jump
 	{
 		vsp = jumpsp;
 		grounded = false;
+		audio_play_sound(sound_meat_jumping, 10, false);
 	}
 	else if !grounded && (tilemap_get_at_pixel(tilemap, bbox_left - 1, bbox_top) != 0) && !walljump_left // Left Wall Jump
 	{
@@ -69,6 +87,11 @@ if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_side + vsp) != 0) || (tilemap_
 		grounded = true;
 		walljump_left = false;
 		walljump_right = false;
+		if (play_landing_sound)
+		{
+			audio_play_sound(sound_meat_landing, 10, false);
+			play_landing_sound = false;
+		}
 	}
 	else 
 	{
@@ -76,9 +99,16 @@ if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_side + vsp) != 0) || (tilemap_
 		grounded = false;
 	}
 	vsp = 0;
+} else {
+	play_landing_sound = true;
 }
 
 
 // Calculate New Position
 x += hsp;
 y += vsp;
+
+
+// Animations
+
+if (hsp != 0) image_xscale = sign(hsp);
