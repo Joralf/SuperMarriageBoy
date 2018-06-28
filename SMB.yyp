@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "120b0a0f-4cdf-4329-b16b-ee9ac93439a9",
+            "Value": {
+                "id": "3294c885-f54c-4541-932e-5273f2947df9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/tileset_collision\/tileset_collision.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "24bce4a8-dea8-441b-b4d2-3331284ab92d",
             "Value": {
                 "id": "ce1d93ea-6424-477b-85ff-9124596e1358",
@@ -131,6 +150,25 @@
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "49781f0e-c6f6-42c8-bff7-a1536789af3c",
+            "Value": {
+                "id": "2e017d83-5110-4c16-bc92-6867b9883818",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_collision\/spr_collision.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
