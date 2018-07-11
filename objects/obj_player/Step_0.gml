@@ -34,6 +34,23 @@ if (place_meeting(x, y, obj_circle_saw)) || (place_meeting(x, y, obj_circle_saw_
 	room_restart();
 } 
 
+// Increase timer
+secs+= (delta_time / 1000000) * room_speed
+d_min = secs div 3600;
+d_sec = (secs div 60) - (d_min * 60);
+
+if d_sec < 10
+{
+	d_sec = "0" + string(d_sec);
+}
+
+d_ms = round((secs mod 60) * 100 / 60);
+if d_ms < 10
+{
+	d_ms = "0" + string(d_ms);
+}
+
+
 // Horizontal Player Movement
 var move = key_right - key_left;
 if key_sprint hsp = move * sprntsp; else hsp = move * walksp;

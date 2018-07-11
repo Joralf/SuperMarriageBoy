@@ -11,4 +11,9 @@ grounded = false;
 play_landing_sound = false;
 last_wall_jump_x = -999;
 
+secs = 0;
+d_min = 0;
+d_sec = 0;
+d_ms = 0;
+
 tilemap = layer_tilemap_get_id("Collision")
