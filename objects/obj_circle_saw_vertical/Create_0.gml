@@ -1,4 +1,4 @@
 /// @description Setup variables
 
-vsp = 12;
-dir = -1
+vsp = 8;
+dir = 1
