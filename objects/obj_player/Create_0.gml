@@ -2,7 +2,7 @@ hsp = 0;
 vsp = 0;
 grv = 1;
 walksp = 7;
-sprntsp = 10
+sprntsp = 11;
 jumpsp = 17;
 
 walljump_sp = 17;

@@ -13,7 +13,7 @@ left = keyboard_check_pressed(vk_left);
 right =  keyboard_check_pressed(vk_right);
 tab = keyboard_check_pressed(vk_tab);
 
-if left && right && tab
+if left
 {
 	
 	highscores = ds_map_create();

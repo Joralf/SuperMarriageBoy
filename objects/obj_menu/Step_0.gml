@@ -37,6 +37,6 @@ if (menu_x > gui_width + 300) && (menu_committed != -1)
 	{
 		case 2: room_goto(r_level1); break;
 		case 1: room_goto(r_highscore); break;
-		case 0: game_restart(); break;
+		case 0: game_end(); break;
 	}
 }

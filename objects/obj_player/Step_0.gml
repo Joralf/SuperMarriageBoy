@@ -35,6 +35,12 @@ if (place_meeting(x, y, obj_circle_saw)) || (place_meeting(x, y, obj_circle_saw_
 	room_restart();
 } 
 
+if y > room_height
+{
+	room_restart();
+}
+
+
 // Horizontal Player Movement
 var move = key_right - key_left;
 if key_sprint hsp = move * sprntsp; else hsp = move * walksp;

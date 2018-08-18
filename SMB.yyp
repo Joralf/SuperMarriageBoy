@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "62ed0b45-bd00-447f-ab57-4f787410ba13",
+            "Value": {
+                "id": "013f488d-28a6-4649-bc1c-e94fdc2b1b20",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_level5\/r_level5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "63e1f435-ed75-4dc8-8734-2890996bee20",
             "Value": {
                 "id": "6f75a245-3f79-4df0-be55-771efe526114",
@@ -590,6 +609,25 @@
             }
         },
         {
+            "Key": "9bfe293d-c7a7-4d61-bf04-ce11b1a7a6a6",
+            "Value": {
+                "id": "29eebdbc-1d23-4b41-9ab8-8bf533e00688",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sign_wall_jump\/obj_sign_wall_jump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9c8b0342-723a-48aa-a8cf-87c51c85167d",
             "Value": {
                 "id": "156d268a-aa34-41a9-9d6d-bf1a6cadf691",
@@ -606,6 +644,25 @@
                 ],
                 "resourcePath": "fonts\/fMenu\/fMenu.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a38c2759-58e9-423f-92b6-9843eeb18280",
+            "Value": {
+                "id": "f5514e78-a057-4971-a156-504deac7fc29",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_sign_wall_jump\/spr_sign_wall_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -685,6 +742,25 @@
             }
         },
         {
+            "Key": "b87f9c2a-a07d-4712-9190-d67c7ee6753e",
+            "Value": {
+                "id": "8ec2ca78-e287-46c0-8ced-ee5f0c1b899c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_level3\/r_level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b8a92c58-4554-4398-bf0c-5a47a3b2c09c",
             "Value": {
                 "id": "c45b308a-a5e1-4a9e-bceb-dee65f731e5b",
@@ -699,7 +775,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/r_level3\/r_level3.yy",
+                "resourcePath": "rooms\/r_level6\/r_level6.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -758,6 +834,25 @@
                 ],
                 "resourcePath": "sounds\/sound_meat_wall_jump\/sound_meat_wall_jump.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d1433136-a9da-4f9a-8dcd-499c2e47deb0",
+            "Value": {
+                "id": "80d097b0-3347-4099-a5a3-2ffa9459d5f5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_sign_jump\/spr_sign_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -853,6 +948,25 @@
                 ],
                 "resourcePath": "views\/db9bfdfa-31fb-4f6c-a70c-85847653a470.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "de21897f-4773-4d5e-ab3d-ed38db0659f3",
+            "Value": {
+                "id": "6f4b8e5d-5d84-48c2-8882-c63eba330ed8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_level4\/r_level4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -986,6 +1100,25 @@
                 ],
                 "resourcePath": "sounds\/sound_meat_landing\/sound_meat_landing.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fa35bc29-2540-41e5-8f1f-7b2a0867f2a5",
+            "Value": {
+                "id": "9ed4cbef-9688-49fc-9f59-06eea10c4787",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sign_jump\/obj_sign_jump.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
