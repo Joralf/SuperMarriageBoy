@@ -12,3 +12,5 @@ play_landing_sound = false;
 last_wall_jump_x = -999;
 
 tilemap = layer_tilemap_get_id("Collision")
+
+global.run_timer = 1;

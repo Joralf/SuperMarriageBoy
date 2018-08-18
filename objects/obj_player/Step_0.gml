@@ -23,11 +23,9 @@ if (place_meeting(x, y, obj_bandage_girl)) {
 		room_goto_next();
 	} 
 	else
-	{
-		ini_open("highscores.txt");
-		ini_write_string("Highscores", "Player", global.seconds);
-		ini_close();
-		room_goto(r_highscore);
+	{	
+		global.run_timer = 0;
+		room_goto(r_set_highscore);
 	}
 } 
 

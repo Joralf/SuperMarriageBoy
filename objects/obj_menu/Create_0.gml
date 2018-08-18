@@ -21,18 +21,5 @@ menu_cursor = 2;
 
 audio_play_sound(sound_smb_intro, 10, false);
 
-
-
-
-
-// Highscores
-
-highscores = ds_map_create();
-
-ds_map_add(highscores, "Joralf", 500);
-ds_map_add(highscores, "Sanne", 300);
-ds_map_add(highscores, "Marijke", 900);
-ds_map_add(highscores, "Jelmar", 250);
-
-
-ds_map_secure_save(highscores, "highscores.map");
+global.run_timer = 0;
+global.seconds = 0;

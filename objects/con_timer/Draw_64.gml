@@ -1,2 +1,6 @@
 /// @description Draw timer
-draw_text (100, 50, string(d_min) + ":" + string(d_sec) + ":" + string(d_ms))
+
+if global.run_timer == 1
+{
+	draw_text (100, 50, string(d_min) + ":" + string(d_sec) + ":" + string(d_ms))
+}
