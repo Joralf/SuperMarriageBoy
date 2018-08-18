@@ -229,6 +229,44 @@
             }
         },
         {
+            "Key": "39a112e1-2e33-463e-8f6f-1fc20a821f67",
+            "Value": {
+                "id": "f796e115-eec1-4086-a630-d8994678aaaa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/con_timer\/con_timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3cc913f2-6ec6-4748-95c8-6d9ddcdaef21",
+            "Value": {
+                "id": "0a6ef8df-291f-42a8-8803-4c0944aa2371",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_highscore\/r_highscore.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3ee35d05-e31e-43b7-b238-238263324ddc",
             "Value": {
                 "id": "26e2c38e-587a-49d5-8845-97eac5e773d3",
@@ -568,6 +606,25 @@
                 ],
                 "resourcePath": "sounds\/sound_meat_jumping\/sound_meat_jumping.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b3c3c267-082d-4d1f-a56f-b836079626ba",
+            "Value": {
+                "id": "0579d192-afed-45e3-8263-ee83f31ba937",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/con_highscores\/con_highscores.yy",
+                "resourceType": "GMObject"
             }
         },
         {

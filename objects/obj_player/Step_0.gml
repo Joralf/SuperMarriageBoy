@@ -1,4 +1,3 @@
-// Global variables
 var bbox_side; // to indicate which side is going to collide
 
 
@@ -16,6 +15,7 @@ if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
 key_sprint = gamepad_button_check(0, gp_shoulderrb);
 key_jump = gamepad_button_check_pressed(0, gp_face1);
 
+
 // Check Win condition
 if (place_meeting(x, y, obj_bandage_girl)) {
 	if room_next(room) != -1
@@ -24,7 +24,10 @@ if (place_meeting(x, y, obj_bandage_girl)) {
 	} 
 	else
 	{
-		game_restart();
+		ini_open("highscores.txt");
+		ini_write_string("Highscores", "Player", global.seconds);
+		ini_close();
+		room_goto(r_highscore);
 	}
 } 
 
@@ -33,23 +36,6 @@ if (place_meeting(x, y, obj_circle_saw)) || (place_meeting(x, y, obj_circle_saw_
 {
 	room_restart();
 } 
-
-// Increase timer
-secs+= (delta_time / 1000000) * room_speed
-d_min = secs div 3600;
-d_sec = (secs div 60) - (d_min * 60);
-
-if d_sec < 10
-{
-	d_sec = "0" + string(d_sec);
-}
-
-d_ms = round((secs mod 60) * 100 / 60);
-if d_ms < 10
-{
-	d_ms = "0" + string(d_ms);
-}
-
 
 // Horizontal Player Movement
 var move = key_right - key_left;

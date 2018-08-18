@@ -3,23 +3,26 @@
 // Item Ease In
 menu_x += (menu_x_target - menu_x ) / menu_speed;
 
-// Keyboard Controls
+key_action = gamepad_button_check_pressed(0, gp_face1);
+key_up = gamepad_button_check_pressed(0, gp_padu);
+key_down = gamepad_button_check_pressed(0, gp_padd);
 
+//  Controls
 if menu_control
 {
-	if (keyboard_check_pressed(vk_up))
+	if (key_up)
 	{
 		menu_cursor++;
 		if (menu_cursor >= menu_items) menu_cursor = 0;
 	}
 	
-	if (keyboard_check_pressed(vk_down))
+	if (key_down)
 	{
 		menu_cursor--;
 		if (menu_cursor < 0) menu_cursor = menu_items -1;
 	}
 	
-	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
+	if (key_action)
 	{
 		menu_x_target = gui_width + gui_margin * 2;
 		menu_committed = menu_cursor;
@@ -33,7 +36,7 @@ if (menu_x > gui_width + 300) && (menu_committed != -1)
 	switch(menu_committed)
 	{
 		case 2: room_goto(r_level1); break;
-		case 1: room_restart(); break;
+		case 1: room_goto(r_highscore); break;
 		case 0: game_restart(); break;
 	}
 }

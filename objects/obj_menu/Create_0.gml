@@ -12,11 +12,27 @@ menu_itemheight = font_get_size(fMenu);
 menu_committed = -1;
 menu_control = true;
 
-menu[2] = "Continue";
-menu[1] = "Start";
+menu[2] = "Start";
+menu[1] = "Highscores";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
 menu_cursor = 2;
 
 audio_play_sound(sound_smb_intro, 10, false);
+
+
+
+
+
+// Highscores
+
+highscores = ds_map_create();
+
+ds_map_add(highscores, "Joralf", 500);
+ds_map_add(highscores, "Sanne", 300);
+ds_map_add(highscores, "Marijke", 900);
+ds_map_add(highscores, "Jelmar", 250);
+
+
+ds_map_secure_save(highscores, "highscores.map");
