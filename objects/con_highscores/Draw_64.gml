@@ -1,11 +1,16 @@
-/// @description Insert description here
+/// @description Draw highscores
 
-draw_set_color(c_white);
-_next = ds_map_find_first( highscores );
-_count = 0;
+draw_set_color(c_black);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 
-while ( !is_undefined( _next ) ) {
-	seconds = highscores[? _next ]
+for (var row = 0; row < ds_grid_height(sorted_highscores); row++)
+{
+	// Fetch row from sorted_highscores
+	name = ds_grid_get(sorted_highscores, 0, row);
+	seconds = ds_grid_get(sorted_highscores, 1, row);
+	
+	// Convert seconds to minutes and miliseconds
 	d_min = seconds div 3600;
 	d_sec = (seconds div 60) - (d_min * 60);
 
@@ -20,9 +25,31 @@ while ( !is_undefined( _next ) ) {
 		d_ms = "0" + string(d_ms);
 	}
 	
-  _string = string( _next ) + ": " +  string(d_min) + ":" + string(d_sec) + ":" + string(d_ms);
-  draw_text((view_xport[0]+ view_wport[0])/2, 200 + _count * 30, _string );
- 
-  _next = ds_map_find_next( highscores, _next );
-  _count++;
+	if string_length(name) > 10
+	{
+		name = string_copy(name, 1, 14) + "...";
+	}
+	
+	// Draw highscore row
+	if (row < 20)
+	{
+		y_pos = 300 + row * 22;
+		draw_text(60, y_pos, string(row + 1))
+		draw_text(90, y_pos, string(name));
+		draw_text(260, y_pos, string(d_min) + ":" + string(d_sec) + ":" + string(d_ms));
+	} else if (row < 40) {
+		y_pos = 300 + (row - 20) * 22;
+		draw_text(360, y_pos, string(row + 1))
+		draw_text(390, y_pos, string(name));
+		draw_text(560, y_pos, string(d_min) + ":" + string(d_sec) + ":" + string(d_ms));
+	} else if (row < 60) {
+		y_pos = 300 + (row - 40) * 22;
+		draw_text(660, y_pos, string(row + 1))
+		draw_text(690, y_pos, string(name));
+		draw_text(860, y_pos, string(d_min) + ":" + string(d_sec) + ":" + string(d_ms));
+	} else {
+		// don't draw
+	}
 }
+
+
