@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "156fa86c-ba4e-4268-8bb8-a60858f2337a",
+            "Value": {
+                "id": "1c431cd0-1217-4570-8dd0-f071666e3ad2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/con_highscores\/con_highscores.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b61f15c-463d-42ae-931f-975a27c92688",
             "Value": {
                 "id": "1ceb5829-d1ce-47f3-93c3-7ef43506d025",
@@ -533,25 +552,6 @@
             }
         },
         {
-            "Key": "73896449-03fa-40da-93b8-878a391f7f5c",
-            "Value": {
-                "id": "1031bdf3-baf1-4a25-a072-f3f19856aaf1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "views\/73896449-03fa-40da-93b8-878a391f7f5c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "784eb4c0-abea-4e7a-8ca5-b30110476a9a",
             "Value": {
                 "id": "7e146803-5c22-40f4-baf7-d23ca842c5cc",
@@ -628,6 +628,25 @@
             }
         },
         {
+            "Key": "8f913266-7629-47bc-bf74-d20299ca3822",
+            "Value": {
+                "id": "75ab9d6d-afea-4b2b-8f77-05d7e30af2ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_level7\/r_level7.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "98645f79-c785-4001-a81f-759c8818f8f4",
             "Value": {
                 "id": "7ee2e76e-9f37-4722-890f-12963d346024",
@@ -701,6 +720,25 @@
                 ],
                 "resourcePath": "sprites\/spr_sign_wall_jump\/spr_sign_wall_jump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6b8a0ab-5cbf-45f1-9a06-2009777c37d2",
+            "Value": {
+                "id": "706924a2-d332-4357-8bd3-86e492cb1f77",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_level8\/r_level8.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -891,6 +929,25 @@
                 ],
                 "resourcePath": "sounds\/sound_meat_wall_jump\/sound_meat_wall_jump.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "cd8ff1ee-6de6-4f2d-851a-95ed1c672d43",
+            "Value": {
+                "id": "b565e15e-746a-4e6f-96f5-c1d2440a6c2b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_circle_saw_horizontal\/obj_circle_saw_horizontal.yy",
+                "resourceType": "GMObject"
             }
         },
         {

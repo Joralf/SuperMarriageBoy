@@ -15,9 +15,9 @@ if i_d == message
    }
 
 name = string_lower(name);
+global.current_user_name = string(name);
 
 highscores = ds_map_secure_load("highscores.map");
-
 
 if ds_map_exists(highscores, name)
 {

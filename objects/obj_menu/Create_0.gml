@@ -23,3 +23,4 @@ audio_play_sound(sound_smb_intro, 10, false);
 
 global.run_timer = 0;
 global.seconds = 0;
+global.current_user_name = "";

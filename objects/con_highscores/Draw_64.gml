@@ -1,6 +1,5 @@
 /// @description Draw highscores
 
-draw_set_color(c_black);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
@@ -30,6 +29,12 @@ for (var row = 0; row < ds_grid_height(sorted_highscores); row++)
 		name = string_copy(name, 1, 14) + "...";
 	}
 	
+	if name == global.current_user_name
+	{
+		draw_set_color(c_red);
+	} else {
+		draw_set_color(c_black);
+	}
 	// Draw highscore row
 	if (row < 20)
 	{

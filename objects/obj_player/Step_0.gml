@@ -30,7 +30,7 @@ if (place_meeting(x, y, obj_bandage_girl)) {
 } 
 
 // Check Lose Condition
-if (place_meeting(x, y, obj_circle_saw)) || (place_meeting(x, y, obj_circle_saw_vertical)) 
+if (place_meeting(x, y, obj_circle_saw)) || (place_meeting(x, y, obj_circle_saw_vertical)) || (place_meeting(x, y, obj_circle_saw_horizontal)) 
 {
 	room_restart();
 } 
