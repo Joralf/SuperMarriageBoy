@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "8ae1ea33-1714-45c3-b39f-17f03015c3b2",
+            "Value": {
+                "id": "03770227-b7c0-4638-8689-0ca5c69bdb03",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fTimer\/fTimer.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8e75f919-3129-413c-b2d9-9e5e1d1de1ca",
             "Value": {
                 "id": "37fc071f-0a03-41bc-8d42-13f1297dff7b",
@@ -662,6 +681,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_sign_wall_jump\/spr_sign_wall_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a901b1e1-4ace-4797-8945-6b7a8be78fc7",
+            "Value": {
+                "id": "706d7b0d-5a4d-4b6c-bf53-58b2d9459430",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_scoreboard\/spr_scoreboard.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1023,6 +1061,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/con_set_highscore\/con_set_highscore.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f297e3ff-8205-4eaf-8e62-192b95d00dc3",
+            "Value": {
+                "id": "fc09da9a-a51a-43a3-972f-71664e5dc2a7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_scoreboard\/obj_scoreboard.yy",
                 "resourceType": "GMObject"
             }
         },
