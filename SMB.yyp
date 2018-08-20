@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "088a8fcc-065b-4d7c-bbe0-efda626b3649",
+            "Value": {
+                "id": "1e91bc04-e6fe-4a20-a8ef-897322dfd783",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sign_sprint_jump\/obj_sign_sprint_jump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a119a39-e632-4d0b-9db3-d7e8701a1c3e",
             "Value": {
                 "id": "ba594c96-7335-4587-bc4d-9bbc8150034b",
@@ -476,6 +495,25 @@
             }
         },
         {
+            "Key": "5f422406-bf52-4a39-b8c0-fdd1ea71c05d",
+            "Value": {
+                "id": "dc36fad5-07b4-410f-8b5b-43d42fa9a7cf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_score_input\/spr_score_input.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62ed0b45-bd00-447f-ab57-4f787410ba13",
             "Value": {
                 "id": "013f488d-28a6-4649-bc1c-e94fdc2b1b20",
@@ -511,6 +549,25 @@
                 ],
                 "resourcePath": "views\/63e1f435-ed75-4dc8-8734-2890996bee20.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a58c251-1478-4f44-9ea2-54b11a4f3f55",
+            "Value": {
+                "id": "ecea17a2-2683-49a7-92d8-582c9723bc5b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_sign_sprint_jump\/spr_sign_sprint_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -834,6 +891,25 @@
                 ],
                 "resourcePath": "sounds\/sound_smb_intro\/sound_smb_intro.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b57ba466-c1ca-45c3-a0b7-e06341877629",
+            "Value": {
+                "id": "d89c511c-4739-400d-8364-2f08296de255",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_ps4_controller\/spr_ps4_controller.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

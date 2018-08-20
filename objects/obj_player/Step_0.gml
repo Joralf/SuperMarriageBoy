@@ -14,7 +14,7 @@ if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
 
 key_sprint = gamepad_button_check(0, gp_shoulderrb);
 key_jump = gamepad_button_check_pressed(0, gp_face1);
-
+key_quit = gamepad_button_check_pressed(0, gp_start);
 
 // Check Win condition
 if (place_meeting(x, y, obj_bandage_girl)) {
@@ -40,6 +40,11 @@ if y > room_height
 	room_restart();
 }
 
+// Check Quit condition
+if key_quit
+{
+	room_goto(r_menu);
+}
 
 // Horizontal Player Movement
 var move = key_right - key_left;
